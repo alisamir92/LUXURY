@@ -1,0 +1,14 @@
+{
+  "name": "ewaste",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "^1.0.0"
+  },
+  "dependencies": {
+    "livereload-js": "^2.2.2",
+    "node-sass": "^4.7.2",
+    "owl.carousel": "^2.2.0"
+  }
+}

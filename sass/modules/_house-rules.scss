@@ -1,0 +1,25 @@
+.house-rules{
+    
+    @include font();
+    div{
+    ul{
+        >li{
+            font-size: 13px;
+        }
+    }
+    span{
+        a{
+            color: #92d1ff;
+            font-size: 13px;
+        }
+    }
+    >h6{
+        font-size: 13px;
+    }
+    >p{
+        font-size: 13px;
+        padding-bottom: 20px;
+        
+}
+}
+}

@@ -1,0 +1,82 @@
+.independent-studio{
+    @include font();
+    
+    div{
+        
+    .studio-on-ship{
+        h2{
+            font-size: 30px; 
+        }
+        div{
+            height: 50px;
+        span:first-child{
+            a{
+                font-size: 11px;  
+            }
+        }
+        span:last-child{
+            img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                
+            }
+        }
+            }
+        .room-options{
+            height: 60px;
+            margin-top: 10px;
+            
+            span{
+                font-size: 12px; 
+            }
+        }
+        >p{
+            font-size: 12px;
+        }
+        .read-more{
+            a{
+                font-size: 15px;
+                color: #92d1ff;
+            }
+        }
+        .contact{
+            @extend .read-more;
+        }
+    }
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,5 @@
+@mixin font(){
+    color: $fontColor;
+    font-family: $fontFamily;
+    padding: 10px;
+}

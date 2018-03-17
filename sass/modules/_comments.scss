@@ -1,0 +1,57 @@
+.comments{
+    @include font();
+    div{
+    .first-comment{
+        div:first-child{
+        img{
+           height: 60px;
+            width: 60px;
+            border-radius: 70px;
+            
+        }
+        div:nth-child(2){
+            
+            span{
+                margin-top: 0px;
+            }
+            div{
+                font-size: 13px;
+            }
+        }
+        }
+        
+    
+    >div:last-child{
+            text-align: left;
+            font-size: 13px;
+            padding-top: 20px;
+        }
+        }
+    hr{
+        margin-top: 20px;
+    }
+    .second-comment{
+        @extend .first-comment;
+        >div:last-child{
+            padding-top: 60px;
+        }
+        }
+    
+    ul{
+        li{
+            border: solid 1px #1c9196;
+            display: inline;
+            margin-right: 5px;
+            padding: 5px;
+            >a{
+                color: #1c9196;
+            }
+        }
+        li:nth-child(4){
+            border: 0px;
+        }
+    }
+   
+}
+}
+

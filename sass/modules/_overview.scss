@@ -1,0 +1,19 @@
+.overview{
+    @include font();
+    div{
+        
+    .overview-links{
+        padding-left: 10px;
+        width: 300px;
+        a:first-child{
+            color: $fontColor;
+        }
+        a{
+            color: blue;
+            font-size: 13px;
+        }
+    }
+   
+    }
+}
+hr{@include container($main-width);}

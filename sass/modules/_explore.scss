@@ -1,0 +1,16 @@
+.explore{
+    @include font();
+    div{
+        font-size: 13px;
+        margin: 10px 0px 5px 0px;
+    }
+    ul{
+        margin-bottom: 20px;
+        li{
+            font-size: 12px;
+            a{
+                color: $fontColor;
+            }
+        }
+    }
+}

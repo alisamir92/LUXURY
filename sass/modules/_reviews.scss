@@ -1,0 +1,81 @@
+.reviews{
+   @include font();
+    div{
+        .star{
+            color: #1c9196;
+            letter-spacing: 2px;
+            font-size: 10px;
+        }
+    h3{
+        margin-bottom: 20px;
+    }
+    .search-form{
+       border: solid 0.5px #c4c4c4;
+        border-radius: 2px;
+        padding-left: 7px;
+        margin-bottom: 30px;
+        
+        >input{
+            border: 0px;
+        }
+    }
+    ul{
+        li{
+           &:first-child, &:nth-child(3), &:nth-child(5), &:nth-child(7), &:nth-child(9), &:nth-child(11){
+            height: 32px;
+            font-size: 13px;
+            letter-spacing: 1px;
+           } 
+            
+            &:nth-child(2), &:nth-child(4), &:nth-child(6), &:nth-child(8), &:nth-child(10), &:nth-child(12){
+                text-align: right;
+            }
+        }
+    
+    }
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

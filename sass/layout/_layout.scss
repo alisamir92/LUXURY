@@ -1,0 +1,493 @@
+
+/*Start header@@@@@@@@@@@@@@@@@@*/
+header{
+.header{
+    .header-icon{
+        @include span(2 of 12);
+    }
+    .search-form{
+        @include span(5 at 3 of 12);
+    }
+    >ul{
+        
+        @include span(5 at 8 of 12);
+        @include breakpoint($laptop){
+        >li:first-child{
+            @include span(1 of 4);
+        }
+        >li:nth-child(2){
+            @include span(1 at 2 of 4);
+        }
+        >li:nth-child(3){
+            @include span(1 at 3 of 4);
+        }
+        >li:last-child{
+            @include span(1 at 4 of 4);
+        }
+        }
+    }
+}
+}
+/*End header@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start site-img@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*End site-img@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/*Start overview@@@@@@@@@@@@@@@@@*/
+
+.overview{
+    @include container($main-width);
+    div{
+        @include span(2 of 3);
+    }
+}
+
+
+/*End overview@@@@@@@@@@@@@@@@@*/
+
+/*Start independent-studio@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.independent-studio{
+    @include container($main-width);
+    position: relative;
+    >div{
+        @include span(2 of 3);
+    .studio-on-ship{
+        >div{
+        span:first-child{
+            @include span(4 of 5);
+        }
+        span:last-child{
+            @include span(1 at 5 of 5);
+        }
+            }
+        .room-options{
+            
+            
+            
+            >span:first-child{
+                @include span(1 of 2);
+                
+                @include breakpoint($laptop){
+                    @include span(1 of 4);
+                }
+            }
+            >span:nth-child(2){
+                @include span(1 at 2 of 2);
+                
+                @include breakpoint($laptop){
+                    @include span(1 at 2 of 4);
+                }
+            }
+            >span:nth-child(3){
+                @include span(1 of 2);
+                
+                @include breakpoint($laptop){
+                    @include span(1 at 3 of 4);
+                }
+            }
+            >span:last-child{
+                @include span(1 at 2 of 2);
+                
+                @include breakpoint($laptop){
+                    @include span(1 at 4 of 4);
+                }
+            }
+        }
+       
+    }
+    }
+    
+}
+
+/*End independent-studio@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start amenities@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.amenities{
+    @include container($main-width);
+    
+    
+    >div{
+        @include span(2 of 3);
+        >span:nth-child(2){
+            @include span(1 of 2);
+            
+        }
+        >span:nth-child(3){
+            @include span(1 at 2 of 2);
+            
+        }
+        >span:nth-child(4){
+            @include span(1 of 2);
+            
+        }
+        >span:nth-child(5){
+            @include span(1 at 2 of 2);
+            
+        }
+        
+    }
+}
+
+/*End amenities@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/*Start sleeping-arrangements@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.sleeping-arrangements{
+    @include container($main-width);
+    >div{
+        @include span(2 of 3);
+        .queen-bed{
+            @include span(1 of 2);
+            
+        }
+        .couch{
+            @include span(1 at 2 of 2);
+            
+        }
+    }
+    }
+
+/*End sleeping-arrangements@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start house-rules@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.house-rules{
+    @include container($main-width);
+    >div{
+        @include span(2 of 3);
+    }
+    
+}
+
+/*End house-rules@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start reviews@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.reviews{
+    @include container($main-width);
+    
+    >div{   
+    @include span(2 of 3);
+    
+    >ul{
+        >li:first-child{
+            @include span(1 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 of 4);
+            }
+        }
+        >li:nth-child(2){
+            @include span(1 at 2 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 at 2 of 4);
+            }
+        }
+        >li:nth-child(3){
+            @include span(1 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 at 3 of 4);
+            }
+        }
+        >li:nth-child(4){
+            @include span(1 at 2 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 at 4 of 4);
+            }
+        }
+        >li:nth-child(5){
+            @include span(1 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 of 4);
+            }
+        }
+        >li:nth-child(6){
+            @include span(1 at 2 of 2);
+            
+            @include breakpoint($tablet){
+                @include span(1 at 2 of 4);
+            }
+        }
+        >li:nth-child(7){
+            @include span(1 of 2);
+            @include breakpoint($tablet){
+                @include span(1 at 3 of 4);
+            }
+        }
+        >li:nth-child(8){
+            @include span(1 at 2 of 2);
+            @include breakpoint($tablet){
+                @include span(1 at 4 of 4);
+            }
+        }
+        >li:nth-child(9){
+            @include span(1 of 2);
+            @include breakpoint($tablet){
+                @include span(1 of 4);
+            }
+        }
+        >li:nth-child(10){
+            @include span(1 at 2 of 2);
+            @include breakpoint($tablet){
+                @include span(1 at 2 of 4);
+            }
+        }
+        >li:nth-child(11){
+            @include span(1 of 2);
+            @include breakpoint($tablet){
+                @include span(1 at 3 of 4);
+            }
+        }
+        >li:last-child{
+            @include span(1 at 2 of 2);
+            @include breakpoint($tablet){
+                @include span(1 at 4 of 4);
+            }
+        }
+    }
+}
+}
+
+/*End reviews@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start comeents@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.comments{
+    @include container($main-width);
+    >div{
+        @include span(2 of 3);
+    .first-comment{
+        >div:first-child{
+        >img{
+          
+            @include span(1 of 4);
+        }
+        >span:nth-child(2){
+            @include span(3 at 2 of 4);
+            
+            
+        }
+        }
+        
+    }
+    
+    .second-comment{
+        >div:first-child{
+        >img{
+           
+            @include span(1 of 10);
+        }
+        >div:nth-child(2){
+            @include span(8 at 2 of 10);
+            
+            
+        }
+        >i{
+            @include span(1 at 10 of 10);
+        }
+        }
+      
+     }
+}
+}
+
+
+/*End comments@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/*Start hosted@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.hosted{
+    @include container($main-width);
+    >div{
+        @include span(2 of 3);
+    >div:nth-child(3){
+        
+        >div:first-child{
+            
+            @include breakpoint($tablet){
+                @include span(1 of 4);
+            }
+            
+            
+        }
+        >div:nth-child(2){
+            
+            @include breakpoint($tablet){
+                @include span(2 at 3 of 4);
+            }
+        }
+        >div:last-child{
+           
+            @include breakpoint($tablet){
+                @include span(1 of 1);
+            }
+          
+        }
+    }
+   
+}
+}
+/*End hosted@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start neiborhood@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.neighborhood{
+    @include container($main-width);
+   
+    div:nth-child(5){
+        @include breakpoint($laptop){
+            @include span(1 of 3);
+            
+        }
+    }
+    >div:last-child{
+        @include breakpoint($laptop){
+            @include span(2 at 2 of 3);
+        }
+    }
+}
+
+/*End neiborhood@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start map@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.map{
+    @include container($main-width);
+}
+
+/*End map@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start similar-listings@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.similar-listings{
+    @include container($main-width);
+}
+
+/*End similar-listings@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+/*Start explore@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.explore{
+    @include container($main-width);
+    @include breakpoint($laptop){
+    ul:nth-child(3){
+        @include span(1 of 3);
+    }
+    ul:nth-child(4){
+        @include span(1 at 2 of 3);
+    }
+    ul:nth-child(5){
+        @include span(1 at 3 of 3);
+    }
+}
+}
+
+/*End explore@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+/*Start footer@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+footer{
+    @include container($main-width);
+     @include breakpoint($laptop){
+        ul:first-child{
+            @include span(1 of 4);
+        }
+         ul:nth-child(2){
+             @include span(1 at 2 of 4);
+         }
+         ul:nth-child(3){
+             @include span(1 at 3 of 4);
+         }
+         ul:nth-child(4){
+             @include span(1 at 4 of 4);
+         }
+}
+}
+
+/*End footer@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

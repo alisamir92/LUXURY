@@ -1,0 +1,25 @@
+.map{
+    @include font();
+    img:first-child{
+        height: 200px;
+        width: 330px;
+        @include breakpoint($tablet){
+            height: 400px;
+            width: 755px;
+        }
+        @include breakpoint($laptop){
+            height: 600px;
+            width: 980px;
+        }
+    }
+    div:nth-child(2){
+        font-size: 13px;
+        margin-bottom: 10px;
+    }
+    span:nth-child(3){ 
+        >a{
+            font-size: 13px;
+            color: #1c9196; 
+        }
+    }
+}

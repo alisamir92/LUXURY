@@ -1,0 +1,21 @@
+.amenities{
+   @include font();
+    >div{
+        >h3{
+        margin-bottom: 10px;
+    }
+        span{
+            
+            font-size: 13px;
+        }
+        
+        
+        
+        span:last-child{
+            >a{
+                color: #92d1ff;
+                font-size: 13px;
+            }
+        }
+    }
+}

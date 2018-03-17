@@ -1,0 +1,28 @@
+.site-img{
+    height: 600px;
+    font-family: $fontFamily;
+    background-image: url(images/0d988ca2_original.webp);
+    background-size: $background-size;
+    div{
+        div:first-child{
+            text-align: right;
+            padding-top: 30px;
+            padding-right: 10px;
+            
+        }
+        div:last-child{
+            padding-left: 10px;
+            
+            
+        }
+        button{
+                background-color: #ffffff;
+                width: 90px;
+                height: 30px;
+                border-radius: 7px;
+                >a{
+                    color: $fontColor;
+                }
+            }
+    }
+}

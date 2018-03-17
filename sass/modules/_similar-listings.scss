@@ -1,0 +1,44 @@
+.similar-listings{
+    @include font();
+    h3{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .slider{
+        .private-room{
+            div{
+                font-size: 10px;
+            }
+            div:nth-child(3){
+                font-size: 15px;
+                font-weight: bold;
+            }
+           
+            div:nth-child(5){
+                i{
+                    color: #1c9196;
+                }
+                
+            }
+        }
+        .entire-boat{
+            @extend .private-room;
+            img{
+                height: 213px;
+            }
+            
+        }
+        .entire-boat-2beds{
+            @extend .private-room;
+        }
+        .entire-boat-3beds{
+            @extend .private-room;
+        }
+        .private-room-in-centre{
+            @extend .entire-boat;
+        }
+        .private-room-authentic{
+            @extend .private-room;
+        }
+    }
+}

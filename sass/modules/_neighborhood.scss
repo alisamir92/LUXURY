@@ -1,0 +1,40 @@
+.neighborhood{
+    @include font();
+    h6{
+        font-size: 20px;
+    }
+    div:nth-child(2){
+        font-size: 13px;
+    }
+    div:nth-child(3){
+        span{
+            font-size: 14px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    >div:nth-child(4){
+        padding-top: 10px;
+        >a{
+            font-size: 13px;
+            color: #1c9196;
+            
+        }
+    }
+    div:nth-child(5){
+        margin-top: 10px;
+        
+        >a{
+           font-size: 13px;
+           color: #1c9196; 
+        }
+    }
+    >div:last-child{
+        
+        >a{
+           font-size: 13px;
+           color: #1c9196; 
+        }
+    }
+}
